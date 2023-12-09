@@ -1,3 +1,4 @@
+import {ToastContainer, toast} from 'react-toastify'
 import server from "./server";
 
 function Wallet({ address, setAddress, balance, setBalance }) {
